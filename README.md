@@ -2,7 +2,7 @@
 
 ## iDevs - your digitalized compass 
 
-This website was developed to inform about non-existing iDevs digital company. This company is specialized on making web-sites and Saas projects, has UI/UX, management, branding and targeting services.
+This website was developed to inform about non-existing iDevs digital company. This company is specialized in making websites and Saas projects, has UI/UX, management, branding, and targeting services.
 
 ## Links
 
@@ -31,10 +31,10 @@ This website was developed to inform about non-existing iDevs digital company. T
 
 - For validating form elements before sending to server with pretty interesting message
 - For generating array of portfolio items into DOM
-- For toggling burger and menu of header in small screens
+- For toggling burger and menu of the header in small screens
 - For changing styles of header after scrolling the page
 - For showing screenshots in "Single Portfolio" screen
 - For initialization of slider
 
 ## External tools
-- TinySlider to make slider
+- TinySlider to make the slider

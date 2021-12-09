@@ -18,7 +18,7 @@ contactForm.addEventListener("submit", (evt) => {
       value: serviceValue
     }} = evt.target.elements;
   
-  if (nameValue && mailValue && messageValue && serviceValue) {
+  if (nameValue >= 3 && mailValue >= 5 && messageValue >= 10 && serviceValue) {
     message.textContent = "Alright! We can successfully send the data!"
     message.classList.add("contact__message--success")
     message.classList.remove("contact__message--error")
