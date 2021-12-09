@@ -26,6 +26,7 @@ This website was developed to inform about non-existing iDevs digital company. T
 - All screens are responsive.
 - BookAntiqua, Metropolis and Montserrat optimized woff and woff2 fonts are used.
 - All interactive elements are required to send the form in "Contact-us" screen.
+- SVG sprite was used to make the usage of SVG images easily
 
 ## JavaScript usage
 
