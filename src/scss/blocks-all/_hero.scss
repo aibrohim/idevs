@@ -1,0 +1,25 @@
+.hero {
+  background: url("../img/about-hero.png") no-repeat;
+  background-position: 30% 50%;
+  background-size: 2530px;
+  padding: 160px 0 48px;
+}
+
+.hero__title {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 52px;
+  line-height: 1.15;
+  font-weight: 700;
+}
+
+@media screen and (max-width: $tablet) {
+  .hero {
+    padding-top: 120px;
+  }
+
+  .hero__title {
+    font-size: 45px;
+  }
+}

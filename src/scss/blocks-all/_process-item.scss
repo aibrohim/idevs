@@ -1,0 +1,91 @@
+.process-item {
+  padding: 96px 0;
+  &:nth-child(odd) {
+    background-color: #f7f7f7;
+  }
+}
+
+.process-item__container {
+  display: flex;
+  align-items: center;
+}
+
+.process-item:nth-child(even) .process-item__container {
+  flex-direction: row-reverse;
+}
+
+.process-item__img {
+  margin-right: 48px;
+  margin-left: auto;
+}
+
+.process-item:nth-child(even) .process-item__img {
+  margin-left: 48px;
+  margin-right: auto;
+}
+
+.process-item__counter {
+  display: block;
+  color: $accent-color;
+  font-size: 180px;
+  line-height: 1;
+  font-weight: 900;
+}
+
+.process-item__content {
+  flex-basis: 50%;
+}
+
+.process-item__container {
+  position: relative;
+
+  &::before {
+    width: 166px;
+    height: 196px;
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: no-repeat center center;
+    background-image: url("../img/Arrow-Left.svg");
+    background-size: contain;
+    content: '';
+  }
+}
+
+.process-item:nth-child(odd) .process-item__container::before {
+  background-image: url("../img/Arrow-Right.svg");
+}
+
+.process-item:last-child .process-item__container::before {
+  display: none;
+}
+
+@media screen and (max-width: $tablet) {
+  .process-item__container {
+    flex-wrap: wrap;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  .process-item__img {
+    margin-right: 0;
+  }
+
+  .process-item:nth-child(even) .process-item__img {
+    margin-left: 0;
+  }
+
+  .process-item__content {
+    flex-basis: 100%;
+  }
+}
+
+@media screen and (max-width: $landscape-phone) {
+  .process-item__counter {
+    font-size: 80px;
+  }
+}

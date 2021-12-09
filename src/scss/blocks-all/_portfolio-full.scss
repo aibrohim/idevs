@@ -1,0 +1,12 @@
+.portfolio-full {
+  margin-top: 96px;
+  margin-bottom: 48px;
+}
+
+.portfolio-full__list {
+  @include list-reset;
+  margin-top: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

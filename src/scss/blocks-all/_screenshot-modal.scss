@@ -1,0 +1,48 @@
+.screenshot-modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background-color: rgba(#000, 0.7);
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.screenshot-modal--open {
+  display: flex;
+}
+
+.screenshot-modal__close {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+
+  &::before,
+  &::after {
+    content: '';
+    width: 3px;
+    height: 30px;
+    background-color: #fff;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+  }
+
+  &::after {
+    transform: rotate(45deg);
+  }
+
+  &::before {
+    transform: rotate(-45deg);
+  }
+}

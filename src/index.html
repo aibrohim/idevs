@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div style="display: none;">
+    <include src="dist/img/sprite.svg"></include>
+  </div>
+  <header class="header">
+    <div class="container header__container">
+      <a href="/" class="header__logo logo">
+        iDevs
+      </a>
+      <button class="hamburger" type="button">
+        <span class="visually-hidden">Open/close burger</span>
+      </button>
+      <div class="header__menu">
+        <nav class="header__nav nav">
+          <ul class="nav__list nav__list--in-end header__nav-list">
+            <li class="nav__item"><a class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+            <li class="nav__item"><a href="portfolio.html" class="nav__link">Portfolio</a></li>
+            <li class="nav__item"><a href="blog.html" class="nav__link">Blog</a></li>
+            <li class="nav__item"><a href="contact-us.html" class="nav__link">Contact us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="main-hero section">
+      <div class="container main-hero__container">
+        <div class="main-hero__content">
+          <h1 class="main-hero__title">Incredible services</h1>
+          <p class="main-hero__desc">This website was created to fulfill Web Technology module's requirements and does not represent an actual company or service</p>
+          <a class="request-btn main-hero__request-btn" href="contact-us.html">Get consultation</a>
+          <a class="more-btn main-hero__portfolio-btn" href="portfolio.html">Our portfolio</a>
+        </div>
+      </div>
+    </div>
+    <section class="whowe section">
+      <div class="container">
+        <h2 class="whowe__title title">WHO WE ARE</h2>
+        <div class="whowe__container">
+          <section class="whowe__section about-us">
+            <h3 class="whowe__section-title">About us</h3>
+            <p class="about-us__slogan">Energetic team</p>
+            <p class="about-us__text">We are young and powerful team of engineers who are motivated to change the world with digitalizaiton</p>
+          </section>
+          <section class="whowe__section approachment">
+            <h3 class="whowe__section-title">Our approachment</h3>
+            <ul class="approachment__list">
+              <li class="approachment__item approachment__item--lamp">
+                <h4 class="approachment__title">User Centric Development</h4>
+                <p class="approachment__text">Every client will be individually approached</p>
+              </li>
+              <li class="approachment__item approachment__item--multi-layer">
+                <h4 class="approachment__title">Redundancy Multi Layering</h4>
+                <p class="approachment__text">Projects will be on time</p>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </section>
+    <section class="services section">
+      <div class="container">
+        <h2 class="title title--white">WHAT WE DO</h2>
+        <div class="section__header">
+          <p class="section__title">Unique web design solutions</p>
+          <p class="section__description">For each project we make individual UX/UI designs to get the most satisfaction level of clients.</p>
+        </div>
+        <ul class="services__list">
+          <li class="services__item"><img class="services__item-img" src="./img/icon1.svg" width="128" alt="">
+            <h3 class="services__subtitle">Corporate Web development</h3>
+            <p class="services__item-text">Build, grow, or refine your website with the assistance of our highly skilled team of web developers.</p>
+            <a href="single-portfolio.html" class="services__item-btn request-btn request-btn--outlined request-btn--small">Let's talk</a>
+          </li>
+          <li class="services__item"><img class="services__item-img" src="./img/icon2.svg" width="128" alt="">
+            <h3 class="services__subtitle">UI/UX Services</h3>
+            <p class="services__item-text">Take your mobile, web, or desktop platforms to the next level with our individualized and engaging UI/UX strategy.</p>
+            <a href="single-portfolio.html" class="services__item-btn request-btn request-btn--outlined request-btn--small">let's talk</a>
+          </li>
+          <li class="services__item"><img class="services__item-img" src="./img/icon3.svg" width="128" alt="">
+            <h3 class="services__subtitle">Branding</h3>
+            <p class="services__item-text">Publish your brand to the world with our team</p>
+            <a href="single-portfolio.html" class="services__item-btn request-btn request-btn--outlined request-btn--small">Let's talk</a>
+          </li>
+          <li class="services__item"><img class="services__item-img" src="./img/icon4.svg" width="128" alt="">
+            <h3 class="services__subtitle">Management</h3>
+            <p class="services__item-text">Manage your business like a pro</p>
+            <a href="single-portfolio.html" class="services__item-btn request-btn request-btn--outlined request-btn--small">let's talk</a>
+          </li>
+          <li class="services__item"><img class="services__item-img" src="./img/icon5.svg" width="128" alt="">
+            <h3 class="services__subtitle">SaaS</h3>
+            <p class="services__item-text">Make softwares as a service to access your app in anyway</p>
+            <a href="single-portfolio.html" class="services__item-btn request-btn request-btn--outlined request-btn--small">let's talk</a>
+          </li>
+          <li class="services__item"><img class="services__item-img" src="./img/icon6.svg" width="128" alt="">
+            <h3 class="services__subtitle">Automation</h3>
+            <p class="services__item-text">Automate your business to prevent confilicts.</p>
+            <a href="single-portfolio.html" class="services__item-btn request-btn request-btn--outlined request-btn--small">let's talk</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="cta section">
+      <div class="cta__container">
+        <p class="cta__title">Do you want to announce your application?</p>
+        <p class="cta__text">Call us!</p>
+      </div>
+    </section>
+    <section class="process section">
+      <div class="container">
+        <h2 class="title">OUR PROCESS</h2>
+        <div class="section__header">
+          <p class="section__title">Creative Process</p>
+          <p class="section__description">Individual approach to all of our clients</p>
+        </div>
+      </div>
+      <ol class="process__list">
+        <li class="process__item process-item">
+          <div class="container process-item__container">
+            <span class="process-item__counter">01</span>
+            <img class="process-item__img" src="./img/step1.svg" width="128" alt="step1" >
+            <div class="process-item__content">
+              <h3 class="process-item__title">Project Definition</h3>
+              <p class="process-item__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo officia illo ad suscipit inventore animi harum aliquid veniam cum iure voluptatibus alias nisi voluptatum provident, ab necessitatibus, molestias totam, sunt dolor. Dolor maxime itaque eligendi perferendis facere ipsam voluptatem dolorem?</p>
+            </div>
+          </div>
+        </li>
+        <li class="process__item process-item">
+          <div class="container process-item__container">
+            <span class="process-item__counter">02</span>
+            <img class="process-item__img" src="./img/step2.svg" width="128" alt="step1" >
+            <div class="process-item__content">
+              <h3 class="process-item__title">Wireframes and Site Architecture</h3>
+              <p class="process-item__text">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec ullamcorper nulla non metus auctor fringilla.</p>
+            </div>
+          </div>
+        </li>
+        <li class="process__item process-item">
+          <div class="container process-item__container">
+            <span class="process-item__counter">03</span>
+            <img class="process-item__img" src="./img/step3.svg" width="128" alt="step1" >
+            <div class="process-item__content">
+              <h3 class="process-item__title">Visual Design</h3>
+              <p class="process-item__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla earum eum, corrupti doloremque enim molestias animi maxime? Accusantium similique harum voluptate explicabo aspernatur, reiciendis quo, consequuntur velit, sed asperiores illo?</p>
+            </div>
+          </div>
+        </li>
+        <li class="process__item process-item">
+          <div class="container process-item__container">
+            <span class="process-item__counter">04</span>
+            <img class="process-item__img" src="./img/step4.svg" width="128" alt="step1" >
+            <div class="process-item__content">
+              <h3 class="process-item__title">Site Development</h3>
+              <p class="process-item__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, pariatur! Incidunt dolorem odio officiis illo, similique dolore corporis nesciunt unde ut sunt optio nihil autem!</p>
+            </div>
+          </div>
+        </li>
+        <li class="process__item process-item">
+          <div class="container process-item__container">
+            <span class="process-item__counter">05</span>
+            <img class="process-item__img" src="./img/step5.svg" width="128" alt="step1" >
+            <div class="process-item__content">
+              <h3 class="process-item__title">Site Testing</h3>
+              <p class="process-item__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi dolor cum animi perspiciatis qui eum?Lorem ipsum dolor sit, amet consectetur adipisicing elit. At et assumenda distinctio.</p>
+            </div>
+          </div>
+        </li>
+        <li class="process__item process-item">
+          <div class="container process-item__container">
+            <span class="process-item__counter">06</span>
+            <img class="process-item__img" src="./img/step6.svg" width="128" alt="step1" >
+            <div class="process-item__content">
+              <h3 class="process-item__title">Launch</h3>
+              <p class="process-item__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam voluptates modi quasi libero non optio natus aut impedit placeat, ipsa rerum minima blanditiis tempore error perspiciatis aspernatur rem quaerat totam! Ratione blanditiis quas accusamus corrupti.</p>
+            </div>
+          </div>
+        </li>
+        <li class="process__item process-item">
+          <div class="container process-item__container">
+            <span class="process-item__counter">07</span>
+            <img class="process-item__img" src="./img/step7.svg" width="128" alt="step1" >
+            <div class="process-item__content">
+              <h3 class="process-item__title">Site Maintenance</h3>
+              <p class="process-item__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint iusto ut ullam, inventore ducimus vitae, tempora laudantium maiores totam iste enim ab. Eos, quo!</p>
+            </div>
+          </div>
+        </li>
+      </ol>
+    </section>
+    <section class="portfolio section">
+      <div class="container">
+        <h2 class="title">Our work</h2>
+        <div class="section__header">
+          <p class="section__title">Portfolio</p>
+          <p class="section__description">What did we make</p>
+        </div>
+        <ul class="portfolio__list">
+          <li class="portfolio__item"><a href="single-portfolio.html" class="portfolio__item-link">
+              <img class="portfolio__item-img" src="img/portfolio-1.jpg" width="385" alt="">
+            </a>
+          </li>
+          <li class="portfolio__item"><a href="single-portfolio.html" class="portfolio__item-link">
+              <img class="portfolio__item-img" src="img/portfolio-2.jpg" width="385" alt="">
+            </a>
+          </li>
+          <li class="portfolio__item"><a href="single-portfolio.html" class="portfolio__item-link">
+              <img class="portfolio__item-img" src="img/portfolio-3.jpg" width="385" alt="">
+            </a>
+          </li>
+          <li class="portfolio__item"><a href="single-portfolio.html" class="portfolio__item-link">
+              <img class="portfolio__item-img" src="img/portfolio-4.jpg" width="385" alt="">
+            </a>
+          </li>
+          <li class="portfolio__item"><a href="single-portfolio.html" class="portfolio__item-link">
+              <img class="portfolio__item-img" src="img/portfolio-5.jpg" width="385" alt="">
+            </a>
+          </li>
+          <li class="portfolio__item"><a href="single-portfolio.html" class="portfolio__item-link">
+              <img class="portfolio__item-img" src="img/portfolio-6`.jpg" width="385" alt="">
+            </a>
+          </li>
+        </ul>
+        <div class="portfolio__more-btn-wrapper">
+          <a href="portfolio.html" class="more-btn more-btn--accent">See all</a>
+        </div>
+      </div>
+    </section>
+    <section class="feedbacks section section--with-bg">
+      <div class="container">
+        <h2 class="title title--white">TESTIMONIAL</h2>
+        <div class="feedbacks__wrapper">
+          <ul class="feedbacks__list">
+            <li class="feedbacks__item">
+              <img class="feedbacks__item-logo" src="https://picsum.photos/68/68" alt="This company">
+              <figure class="feedbacks__item-figure">
+                <blockquote class="feedbacks__item-feedback">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, corrupti rerum consequatur delectus sequi, dolorem nobis officia veniam ipsa libero ut ratione minus possimus, illo perspiciatis alias. Iusto, sequi totam.
+                </blockquote>
+                <figcaption class="feedbacks__item-author">
+                  <img class="feedbacks__author-img" src="img/person-1.jpeg" width="70" height="70" alt="" >
+                  <div class="feedback__item-author-info">
+                    <p class="feedbacks__author-name">Falonchi Pismadonchiyev</p>
+                    <p class="feedbacks__author-job">CEO of Pokiza and Nasiya Savdo</p>
+                  </div>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="feedbacks__item"><img class="feedbacks__item-logo" src="https://picsum.photos/68/68" alt="This company">
+              <figure class="feedbacks__item-figure">
+                <blockquote class="feedbacks__item-feedback">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, corrupti rerum consequatur delectus sequi, dolorem nobis officia veniam ipsa libero ut ratione minus possimus, illo perspiciatis alias. Iusto, sequi totam.
+                </blockquote>
+                <figcaption class="feedbacks__item-author">
+                  <img class="feedbacks__author-img" src="img/person-1.jpeg" width="70" height="70" alt="" >
+                  <div class="feedback__item-author-info">
+                    <p class="feedbacks__author-name">Falonchi Pismadonchiyev</p>
+                    <p class="feedbacks__author-job">CEO of Pokiza and Nasiya Savdo</p>
+                  </div>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="feedbacks__item"><img class="feedbacks__item-logo" src="https://picsum.photos/68/68" alt="This company">
+              <figure class="feedbacks__item-figure">
+                <blockquote class="feedbacks__item-feedback">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, corrupti rerum consequatur delectus sequi, dolorem nobis officia veniam ipsa libero ut ratione minus possimus, illo perspiciatis alias. Iusto, sequi totam.
+                </blockquote>
+                <figcaption class="feedbacks__item-author">
+                  <img class="feedbacks__author-img" src="img/person-2.jpeg" width="70" height="70" alt="" >
+                  <div class="feedback__item-author-info">
+                    <p class="feedbacks__author-name">Falonchi Pismadonchiyev</p>
+                    <p class="feedbacks__author-job">CEO of Pokiza and Nasiya Savdo</p>
+                  </div>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="feedbacks__item"><img class="feedbacks__item-logo" src="https://picsum.photos/68/68" alt="This company">
+              <figure class="feedbacks__item-figure">
+                <blockquote class="feedbacks__item-feedback">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, corrupti rerum consequatur delectus sequi, dolorem nobis officia veniam ipsa libero ut ratione minus possimus, illo perspiciatis alias. Iusto, sequi totam.
+                </blockquote>
+                <figcaption class="feedbacks__item-author">
+                  <img class="feedbacks__author-img" src="img/person-3.jpeg" width="70" height="70" alt="" >
+                  <div class="feedback__item-author-info">
+                    <p class="feedbacks__author-name">Falonchi Pismadonchiyev</p>
+                    <p class="feedbacks__author-job">CEO of Pokiza and Nasiya Savdo</p>
+                  </div>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+          <div class="feedbacks__controls">
+            <button class="feedbacks__control feedbacks__control--prev">
+              <span class="visually-hidden">Prev feedback</span>
+            </button>
+            <button class="feedbacks__control feedbacks__control--next">
+              <span class="visually-hidden">Next feedback</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="blog section">
+      <div class="container">
+        <h2 class="title">Blog</h2>
+        <div class="section__header">
+          <p class="section__title">Latest News</p>
+        </div>
+        <div class="blog__list">
+          <article class="blog__list-item blog-item">
+            <a href="single-blog.html"><img class="blog-item__img" src="https://picsum.photos/352/235" width="352" height="235" alt="some text" ></a>
+            <ul class="blog-item__hashs">
+              <li class="blog-item__hash"><a class="blog-item__hash-link" href="#">Design</a></li>
+              <li class="blog-item__hash"><a class="blog-item__hash-link" href="#">Design</a></li>
+            </ul>
+            <a href="single-blog.html">
+              <h3 class="blog-item__title">Blog article</h3>
+            </a>
+            <p class="blog-item__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias dicta vero vitae fugiat blanditiis perspiciatis totam, omnis quo animi a quibusdam aperiam aut recusandae!</p>
+            <a href="single-blog.html" class="blog-item__more-btn more-btn more-btn--accent">Read more</a>
+          </article>
+          <article class="blog__list-item blog-item">
+            <a href="single-blog.html"><img class="blog-item__img" src="https://picsum.photos/352/235" width="352" height="235" alt="some text" ></a>
+            <ul class="blog-item__hashs">
+              <li class="blog-item__hash"><a class="blog-item__hash-link" href="#">Design</a></li>
+              <li class="blog-item__hash"><a class="blog-item__hash-link" href="#">Design</a></li>
+            </ul>
+            <a href="single-blog.html">
+              <h3 class="blog-item__title">Blog article</h3>
+            </a>
+            <p class="blog-item__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias dicta vero vitae fugiat blanditiis perspiciatis totam, omnis quo animi a quibusdam aperiam aut recusandae!</p>
+            <a href="single-blog.html" class="blog-item__more-btn more-btn more-btn--accent">Read more</a>
+          </article>
+          <article class="blog__list-item blog-item">
+            <a href="single-blog.html"><img class="blog-item__img" src="https://picsum.photos/352/235" width="352" height="235" alt="some text" ></a>
+            <ul class="blog-item__hashs">
+              <li class="blog-item__hash"><a class="blog-item__hash-link" href="#">Design</a></li>
+              <li class="blog-item__hash"><a class="blog-item__hash-link" href="#">Design</a></li>
+            </ul>
+            <a href="single-blog.html">
+              <h3 class="blog-item__title">Blog article</h3>
+            </a>
+            <p class="blog-item__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias dicta vero vitae fugiat blanditiis perspiciatis totam, omnis quo animi a quibusdam aperiam aut recusandae!</p>
+            <a href="single-blog.html" class="blog-item__more-btn more-btn more-btn--accent">Read more</a>
+          </article>
+          <article class="blog__list-item blog-item">
+            <a href="single-blog.html"><img class="blog-item__img" src="https://picsum.photos/352/235" width="352" height="235" alt="some text" ></a>
+            <ul class="blog-item__hashs">
+              <li class="blog-item__hash"><a class="blog-item__hash-link" href="#">Design</a></li>
+              <li class="blog-item__hash"><a class="blog-item__hash-link" href="#">Design</a></li>
+            </ul>
+            <a href="single-blog.html">
+              <h3 class="blog-item__title">Blog article</h3>
+            </a>
+            <p class="blog-item__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias dicta vero vitae fugiat blanditiis perspiciatis totam, omnis quo animi a quibusdam aperiam aut recusandae!</p>
+            <a href="single-blog.html" class="blog-item__more-btn more-btn more-btn--accent">Read more</a>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="partners section section--with-bg">
+      <div class="container">
+        <h2 class="title title--white">Partners</h2>
+        <ul class="partners__list">
+          <li class="partners__item">
+            <img class="partners__item-img" src="img/westminster.jpg" alt="">
+          </li>
+          <li class="partners__item">
+            <img class="partners__item-img" src="https://picsum.photos/250/150" alt="">
+          </li>
+          <li class="partners__item">
+            <img class="partners__item-img" src="https://picsum.photos/235/100" alt="">
+          </li>
+          <li class="partners__item">
+            <img class="partners__item-img" src="https://picsum.photos/268/120" alt="">
+          </li>
+          <li class="partners__item">
+            <img class="partners__item-img" src="https://picsum.photos/290/140" alt="">
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__left">
+        <a href="#" class="footer__logo">iDevs</a>
+      </div>
+      <div class="footer__right">
+        <p class="footer__slogan">Let's build something great together</p>
+        <div class="footer__sections">
+          <section class="footer__section">
+            <h3 class="footer__section-title">Office</h3>
+            <address class="footer__address">
+              Tashkent, Uzbekistn
+            </address>
+          </section>
+          <section class="footer__section">
+            <h3 class="footer__section-title">Let's talk</h3>
+            <a class="footer__contact-link footer__contact-link--mail" href="mailto:services@idevs.com">
+              services@idevs.com
+            </a>
+            <a class="footer__contact-link" href="tel:998990123344">
+              +998 99-012-33-44
+            </a>
+          </section>
+          <section class="footer__section">
+            <h3 class="footer__section-title">Company</h3>
+            <nav class="footer__nav">
+              <ul class="footer__nav-list">
+                <li class="footer__nav-item">
+                  <a href="#" class="footer__nav-link">About</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a href="#" class="footer__nav-link">Services</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a href="#" class="footer__nav-link">Our work</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a href="#" class="footer__nav-link">Career</a>
+                </li>
+              </ul>
+            </nav>
+          </section>
+          <section class="footer__section">
+            <h3 class="footer__section-title">Let's connect</h3>
+            <ul class="footer__social-list">
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link">
+                  <svg class="footer__social-icon">
+                    <use xlink:href="#icon-telegram"></use>
+                  </svg>
+                  Telegram
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a href="" class="footer__social-link">
+                  <svg class="footer__social-icon">
+                    <use xlink:href="#icon-instagram"></use>
+                  </svg>
+                  Instagram
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a href="" class="footer__social-link">
+                  <svg class="footer__social-icon">
+                    <use xlink:href="#icon-facebook"></use>
+                  </svg>
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a href="" class="footer__social-link">
+                  <svg class="footer__social-icon">
+                    <use xlink:href="#icon-linkedin"></use>
+                  </svg>
+                  Linked In
+                </a>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>©2021 iDevs . All rights reserved.</p>
+        <p>Made in Tashkent, Uzbekistan</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/tiny-slider.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

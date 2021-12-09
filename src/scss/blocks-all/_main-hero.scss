@@ -1,0 +1,48 @@
+.main-hero {
+  background: url("../img/heroo.svg") no-repeat 50% 50%;
+  background-size: cover;
+  padding-top: 374px;
+  padding-bottom: 90px;
+}
+
+.main-hero__content {
+  width: 41.6666%;
+  color: #fff;
+}
+
+.main-hero__title {
+  font-size: 65px;
+  line-height: 1;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.main-hero__desc {
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.main-hero__request-btn {
+  margin-right: 24px;
+}
+
+@media screen and (max-width: $tablet) {
+  .main-hero {
+    background-position: 0% 100%;
+    background-size: 2160px;
+  }
+
+  .main-hero__content {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: $landscape-phone) {
+  .main-hero {
+    padding-top: 350px;
+  }
+
+  .main-hero__title {
+    font-size: 45px;
+  }
+}

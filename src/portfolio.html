@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+  <div style="display: none;">
+    <include src="dist/img/sprite.svg"></include>
+  </div>
+  <header class="header">
+    <div class="container header__container">
+      <a href="/" class="header__logo logo">
+        iDevs
+      </a>
+      <button class="hamburger" type="button">
+        <span class="visually-hidden">Open/close burger</span>
+      </button>
+      <div class="header__menu">
+        <nav class="header__nav nav">
+          <ul class="nav__list nav__list--in-end header__nav-list">
+            <li class="nav__item"><a href="/" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+            <li class="nav__item"><a class="nav__link">Portfolio</a></li>
+            <li class="nav__item"><a href="blog.html" class="nav__link">Blog</a></li>
+            <li class="nav__item"><a href="contact-us.html" class="nav__link">Contact us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="hero">
+      <h1 class="hero__title">Our Work</h1>
+    </div>
+
+    <section class="portfolio-full">
+      <div class="container">
+        <nav class="portfolio-full__tabs portfolio-tabs">
+          <ul class="portfolio-tabs__list">
+            <li class="portfolio-tabs__item">
+              <a href="#" class="portfolio-tabs__link portfolio-tabs__link--active">All</a>
+            </li>
+            <li class="portfolio-tabs__item">
+              <a href="#" class="portfolio-tabs__link">Telegram bot</a>
+            </li>
+            <li class="portfolio-tabs__item">
+              <a href="#" class="portfolio-tabs__link">E-commerce</a>
+            </li>
+            <li class="portfolio-tabs__item">
+              <a href="#" class="portfolio-tabs__link">CRM</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="portfolio-full__list">
+          <!-- <li class="portfolio-full__item portfolio-item">
+            <a class="portfolio-item__link" href="single-portfolio.html" >
+              <img class="portfolio-item__img" src="https://picsum.photos/264/250" alt="">
+              <div class="portfolio-item__wrapper">
+                <div class="portfolio-item__text-wrapper">
+                  <h2 class="portfolio-item__project-name">Qorovul</h2>
+                </div>
+                <div class="portfolio-item__text-wrapper">
+                  <p class="portfolio-item__project-description">Bu chotkiy bot</p>
+                </div>
+              </div>
+            </a>
+          </li> -->
+          
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__left">
+        <a href="#" class="footer__logo">iDevs</a>
+      </div>
+      <div class="footer__right">
+        <p class="footer__slogan">Let's build something great together</p>
+        <div class="footer__sections">
+          <section class="footer__section">
+            <h3 class="footer__section-title">Office</h3>
+            <address class="footer__address">
+              Tashkent, Uzbekistn
+            </address>
+          </section>
+          <section class="footer__section">
+            <h3 class="footer__section-title">Let's talk</h3>
+            <a class="footer__contact-link footer__contact-link--mail" href="mailto:services@idevs.com">
+              services@idevs.com
+            </a>
+            <a class="footer__contact-link" href="tel:998990123344">
+              +998 99-012-33-44
+            </a>
+          </section>
+          <section class="footer__section">
+            <h3 class="footer__section-title">Company</h3>
+            <nav class="footer__nav">
+              <ul class="footer__nav-list">
+                <li class="footer__nav-item">
+                  <a href="#" class="footer__nav-link">About</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a href="#" class="footer__nav-link">Services</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a href="#" class="footer__nav-link">Our work</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a href="#" class="footer__nav-link">Career</a>
+                </li>
+              </ul>
+            </nav>
+          </section>
+          <section class="footer__section">
+            <h3 class="footer__section-title">Let's connect</h3>
+            <ul class="footer__social-list">
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link">
+                  <svg class="footer__social-icon">
+                    <use xlink:href="#icon-telegram"></use>
+                  </svg>
+                  Telegram
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link">
+                  <svg class="footer__social-icon">
+                    <use xlink:href="#icon-instagram"></use>
+                  </svg>
+                  Instagram
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link">
+                  <svg class="footer__social-icon">
+                    <use xlink:href="#icon-facebook"></use>
+                  </svg>
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link">
+                  <svg class="footer__social-icon">
+                    <use xlink:href="#icon-linkedin"></use>
+                  </svg>
+                  Linked In
+                </a>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>©2021 iDevs . All rights reserved.</p>
+        <p>Made in Tashkent, Uzbekistan</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/portfolio.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

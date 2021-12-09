@@ -1,0 +1,24 @@
+.request-btn {
+  border: none;
+  background-color: $accent-color;
+  color: #fff;
+  font-family: $montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  padding: 16px 40px;
+  border-radius: 40px;
+  display: inline-block;
+}
+
+.request-btn--outlined {
+  border: 2px solid $accent-color;
+  background-color: #fff;
+  color: $accent-color;
+}
+
+.request-btn--small {
+  padding: 12px 24px;
+  font-size: 11px;
+}

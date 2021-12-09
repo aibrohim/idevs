@@ -1,0 +1,21 @@
+.process {
+  
+}
+
+// .process::before {
+//   width: 820px;
+//   height: 578px;
+//   display: block;
+//   position: sticky;
+//   top: 0;
+//   left: calc(50%);
+//   transform: translateX(600px);
+//   background-color: #ccc;
+//   content: '';
+// }
+
+.process__list {
+  @include list-reset;
+  margin-top: 72px;
+}
+

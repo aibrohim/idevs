@@ -1,0 +1,14 @@
+.more-btn {
+  color: #fff;
+  display: inline-block;
+}
+
+.more-btn--accent {
+  color: $accent-color;
+}
+
+@media screen and (max-width: $tablet) {
+  .more-btn {
+    margin-top: 20px;
+  }
+}

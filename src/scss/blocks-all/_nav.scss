@@ -1,0 +1,39 @@
+.nav__list {
+  @include list-reset;
+  display: flex;
+  align-items: baseline;
+}
+
+.nav__item {
+  margin-right: 48px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.nav__list--in-end {
+  justify-content: flex-end;
+}
+
+.nav__link {
+  display: block;
+  color: #1D2B36;
+  font-weight: 700;
+  padding: 16px 0;
+  transition: $transition-time ease all;
+
+  &:hover {
+    color: $accent-color;
+  }
+
+  &:active {
+    color: rgba($accent-color, 0.7);
+  }
+}
+
+@media screen and (max-width: $tablet) {
+  .nav__link {
+    border-bottom: 1px solid #e0e0e0;
+  }
+}

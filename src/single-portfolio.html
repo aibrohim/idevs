@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+  <div style="display: none;">
+    <include src="dist/img/sprite.svg"></include>
+  </div>
+  <header class="header">
+    <div class="container header__container">
+      <a href="/" class="header__logo logo">
+        iDevs
+      </a>
+      <button class="hamburger" type="button">
+        <span class="visually-hidden">Open/close burger</span>
+      </button>
+      <div class="header__menu">
+        <nav class="header__nav nav">
+          <ul class="nav__list nav__list--in-end header__nav-list">
+            <li class="nav__item"><a href="/" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+            <li class="nav__item"><a href="portfolio.html" class="nav__link">Portfolio</a></li>
+            <li class="nav__item"><a href="blog.html" class="nav__link">Blog</a></li>
+            <li class="nav__item"><a class="nav__link">Contact us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="project">
+    <div class="hero">
+      <h1 class="hero__title">Single Portfolio</h1>
+
+    </div>
+
+    <div class="project-info">
+      <div class="container project-info__container">
+        <section class="project-info__head-section">
+          <h2 class="project-info__head-title">Title</h2>
+          <p class="project-info__head-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nam in accusantium sit eaque expedita odio dolor minus. Animi, alias.</p>
+        </section>
+        <section class="project-info__head-section">
+          <h2 class="project-info__head-title">Type</h2>
+          <p class="project-info__head-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dolorem maxime voluptatum officiis velit delectus?</p>
+        </section>
+        <section class="project-info__head-section">
+          <h2 class="project-info__head-title">Published</h2>
+          <p class="project-info__head-text">December 31st 2020</p>
+        </section>
+        <a href="#" class="project-info__demo-link more-btn more-btn--accent">See it live</a>
+      </div>
+
+      <div class="project-info__screenshot-big container">
+        <img src="https://picsum.photos/1200/500" width="100%" height="500" alt="">
+      </div>
+      
+      <div class="project-info__sections container">
+        <section class="project-info__section">
+          <h2 class="project-info__section-title">The problem</h2>
+          <p class="project-info__problem-text">There should be problem statement</p>
+        </section>
+        <section class="project-info__section">
+          <h2 class="project-info__section-title">Our approachment</h2>
+          <p class="project-info__approachment-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates repellendus quia tenetur pariatur, sit enim aliquam velit totam unde! Explicabo, doloremque atque placeat maxime omnis quis suscipit molestiae, perferendis alias laudantium ratione, at commodi cupiditate consequatur praesentium consectetur voluptates id.</p>
+        </section>
+      </div>
+
+      <section class="project-info__feedback-section">
+        <h2 class="visually-hidden">Feedback</h2>
+        <figure class="project-info__feedback">
+          <blockquote class="project-info__feedback-text">There doesn’t have to be a connection between the difficulty of your situation and who you are as a person. <strong>You can choose to remain positive and polite despite of the difficulties you experience.</strong> Those difficulties don’t have to influence who you are as a person.</blockquote>
+          <figcaption class="project-info__feedback-author">
+            <p class="project-info__author-name">Ibrohim Alimuhammedov</p>
+            <p class="project-info__position">Front-end Engineer</p>
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="project-info__sreenshots">
+        <div class="container project-info__screenshots-container">
+          <ul class="project-info__screenshots">
+            <li class="project-info__screenshot">
+              <img src="https://picsum.photos/368/354" width="368" height="354" alt="" class="project-info__screenshot-img">
+              <button class="project-info__screenshot-btn" data-id="0"></button>
+            </li>
+            <li class="project-info__screenshot">
+              <img src="https://picsum.photos/368/354" width="368" height="354" alt="" class="project-info__screenshot-img">
+              <button class="project-info__screenshot-btn" data-id="0"></button>
+            </li>
+            <li class="project-info__screenshot">
+              <img src="https://picsum.photos/368/354" width="368" height="354" alt="" class="project-info__screenshot-img">
+              <button class="project-info__screenshot-btn" data-id="0"></button>
+            </li>
+            <li class="project-info__screenshot">
+              <img src="https://picsum.photos/368/354" width="368" height="354" alt="" class="project-info__screenshot-img">
+              <button class="project-info__screenshot-btn" data-id="0"></button>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="project-info__cta">
+        <div class="project-info__cta-container">
+          <h2 class="project-info__cta-title">Let's work together</h2>
+          <p class="project-info__cta-slogan">We can help your business thrive</p>
+          <p class="project-info__cta-text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <a href="contact-us.html" class="request-btn">Contact us</a>
+        </div>
+      </section>
+
+      <nav class="project-info__nav container">
+        <a href="single-portfolio.html" class="project-info__nav-control project-info__nav-control--prev">
+          <span class="project-info__control-text">Previous Project</span>
+          <span class="project-info__nav-title">Telegram bot for downloading video from Instagram</span>
+        </a>
+        <a class="project-info__main-control" href="portfolio.html">
+          <span class="visually-hidden">Portfolio page</span>
+        </a>
+        <a href="single-portfolio.html" class="project-info__nav-control project-info__nav-control--next">
+          <span class="project-info__control-text">Next Project Lorem, ipsum.</span>
+          <span class="project-info__nav-title">WIUT intranet</span>
+        </a>
+      </nav>
+    </div>
+    
+  </main>
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__left">
+        <a href="#" class="footer__logo">iDevs</a>
+      </div>
+      <div class="footer__right">
+        <p class="footer__slogan">Let's build something great together</p>
+        <div class="footer__sections">
+          <section class="footer__section">
+            <h3 class="footer__section-title">Office</h3>
+            <address class="footer__address">
+              Tashkent, Uzbekistn
+            </address>
+          </section>
+          <section class="footer__section">
+            <h3 class="footer__section-title">Let's talk</h3>
+            <a class="footer__contact-link footer__contact-link--mail" href="mailto:services@idevs.com">
+              services@idevs.com
+            </a>
+            <a class="footer__contact-link" href="tel:998990123344">
+              +998 99-012-33-44
+            </a>
+          </section>
+          <section class="footer__section">
+            <h3 class="footer__section-title">Company</h3>
+            <nav class="footer__nav">
+              <ul class="footer__nav-list">
+                <li class="footer__nav-item">
+                  <a href="#" class="footer__nav-link">About</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a href="#" class="footer__nav-link">Services</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a href="#" class="footer__nav-link">Our work</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a href="#" class="footer__nav-link">Career</a>
+                </li>
+              </ul>
+            </nav>
+          </section>
+          <section class="footer__section">
+            <h3 class="footer__section-title">Let's connect</h3>
+            <ul class="footer__social-list">
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link">
+                  <svg class="footer__social-icon">
+                    <use xlink:href="#icon-telegram"></use>
+                  </svg>
+                  Telegram
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link">
+                  <svg class="footer__social-icon">
+                    <use xlink:href="#icon-instagram"></use>
+                  </svg>
+                  Instagram
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link">
+                  <svg class="footer__social-icon">
+                    <use xlink:href="#icon-facebook"></use>
+                  </svg>
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link">
+                  <svg class="footer__social-icon">
+                    <use xlink:href="#icon-linkedin"></use>
+                  </svg>
+                  Linked In
+                </a>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>©2021 iDevs . All rights reserved.</p>
+        <p>Made in Tashkent, Uzbekistan</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="screenshot-modal">
+    <img class="screenshot-modal__img" src="https://picsum.photos/1000/400" alt="rasm">
+    <button class="screenshot-modal__close">
+      <span class="visually-hidden">Close button</span>
+    </button>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

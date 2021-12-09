@@ -1,0 +1,49 @@
+.cta {
+  padding-top: 96px;
+  padding-bottom: 48px;
+  background: linear-gradient(262deg, #d53d96, #671f7d 73%);
+  color: #fff;
+  z-index: 4;
+
+  &::before {
+    background: url("../img/memphis-bg2.svg") no-repeat 80% 50%;
+    background-size: cover;
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: '';
+  }
+}
+
+.cta__container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+  position: relative;
+  z-index: 2;
+}
+
+.cta__title {
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 700;
+  margin: 0;
+}
+
+.cta__text {
+  color: #a1a1a1;
+  margin: 0;
+}
+
+@media screen and (max-width: $landscape-phone) {
+  .cta {
+    padding-top: 76px;
+  }
+
+  .cta__title {
+    font-size: 30px;
+  }
+}

@@ -1,2 +1,1 @@
-# pixer-public
 # idevs
