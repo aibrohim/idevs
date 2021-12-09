@@ -30,7 +30,7 @@ if (serviceItems) {
 
 const header = document.querySelector(".header")
 if (header) {
-  document.addEventListener("scroll", (evt) => {
+  document.addEventListener("scroll", () => {
     if (window.scrollY >= 100) {
       if (!header.classList.contains("header--scroll")) {
         header.classList.add("header--scroll")
@@ -64,7 +64,6 @@ const closeScreenshot = document.querySelector(".screenshot-modal__close");
 
 if (screenshots) {
   screenshots.addEventListener("click", (evt) => {
-    const clickedId = evt.target.dataset.id;
     screenshotFull.classList.add("screenshot-modal--open")
   })
 
